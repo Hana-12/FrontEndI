@@ -32,7 +32,7 @@ body{
     justify-content:center;
     align-items:center;
     flex-direction: column;
-    margin: 198px;
+    margin: 180px;
 }
 
 .box{
@@ -44,6 +44,18 @@ body{
     padding: 12px;
     width: 500px;
     overflow: hidden;
+}
+
+#boxcontacto{
+    z-index: 15;
+    position: relative;
+    background: white;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 90px;
+    width: 500px;
+    overflow: hidden;
+
 }
 
 #buttonl{
