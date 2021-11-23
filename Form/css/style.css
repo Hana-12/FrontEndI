@@ -1,0 +1,101 @@
+/***** BODY *****/
+
+body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+
+}
+
+#descuentos{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#kiosko{
+    background-color: #00669F;
+    color: white;
+    display: flex;
+}
+
+#Nombre{
+    padding: 25px;
+    text-align: center;
+}
+
+
+/***** FORM *****/
+
+.Formulario{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin: 198px;
+}
+
+.box{
+    z-index: 15;
+    position: relative;
+    background: white;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 12px;
+    width: 500px;
+    overflow: hidden;
+}
+
+#buttonl{
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    border-style: none; 
+    color: #000;
+    size: 24px;
+    height: 45px;
+    margin-bottom: 16x;
+    text-align: center;
+    width: 500px;
+}
+
+#button1y2{
+    justify-content: flex-start;  
+}
+
+
+#button2{
+    background-color: #888888;
+    border-radius: 23.011px;
+    border-style: none; 
+    color: white;
+    size: 24px;
+    height: 45px;
+    margin-bottom: 16x;
+    text-align: center;
+    width: 250px;
+}
+
+
+#button3{
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    border-style: none; 
+    color: black;
+    size: 24px;
+    height: 45px;
+    margin-bottom: 16x;
+    text-align: center;
+    width: 250px;
+}
+
+/***** FOOTER *****/
+
+footer{
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
